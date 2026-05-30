@@ -1,6 +1,9 @@
 # Claude 本地配置/会话目录，不需要进版本库
 .claude/
 
+# 生成的文章排版示例（不进版本库）
+*.html
+
 # 系统文件
 .DS_Store
 Thumbs.db
