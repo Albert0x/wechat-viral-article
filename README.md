@@ -1,3 +1,6 @@
+<!-- 语言切换 Language -->
+**简体中文** | [English](README.en.md)
+
 # 职场边界局 · 公众号爆款写作 Skill
 
 一个用于 [Claude](https://claude.com/claude-code) 的自定义 Skill，帮助为微信公众号「职场边界局」创作文章。
@@ -8,8 +11,11 @@
 
 ```
 wechat-viral-article/
-└── SKILL.md          # Skill 主体（含写作骨架、选题、结构、案例库、降AI率技巧）
-wechat-viral-article.skill   # 打包好的可安装文件
+├── SKILL.md                        # Skill 主体（写作骨架、选题、结构、案例库、降AI率技巧）
+└── references/
+    ├── wechat-publishing.md        # 生成可粘贴微信编辑器的排版 HTML
+    └── image-guide.md              # 配图建议（封面情绪、图库关键词、AI作图提示词）
+wechat-viral-article.skill          # 打包好的可安装文件
 ```
 
 ## 安装与使用
@@ -29,6 +35,8 @@ wechat-viral-article.skill   # 打包好的可安装文件
 - **完整输出**：标题（含备选）、封面文案、题记、开头、分论点正文、结尾引导
 - **案例库**：影视剧角色 / 名人经历 / 心理学概念 / 经典语录四类素材
 - **降 AI 率技巧**：内置一套让文章更「像人写的」的写法建议
+- **可粘贴排版**：生成带内联样式的 HTML，全选复制即可粘进公众号编辑器
+- **配图建议**：每篇附封面图情绪描述、图库搜索词与 AI 作图提示词
 
 ## 说明
 
